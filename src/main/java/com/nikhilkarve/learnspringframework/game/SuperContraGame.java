@@ -1,13 +1,13 @@
 package com.nikhilkarve.learnspringframework.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements  GamingConsole{
 
     public void up() {
         System.out.println("Jump");
     }
 
     public void down(){
-        System.out.println("Go into hole");
+        System.out.println("Sit");
     }
 
     public void left(){
@@ -15,6 +15,6 @@ public class SuperContraGame {
     }
 
     public void right(){
-        System.out.println("Accelerate");
+        System.out.println("Shoot");
     }
 }
